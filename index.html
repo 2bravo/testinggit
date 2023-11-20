@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="loguito.png" type="image/x-icon">
+    <title>ExamenMarcas</title>
+</head>
+
+<body>
+    <header id="ejercicio1">
+        <h1>Examen de Lenguaje de Marcas de la 1ª Evaluación</h1>
+        <table>
+            <caption>Menu de navegacion</caption>
+            <tr>
+                <td><a href="index.html#ejercicio1">Ejercicio 1</a></td>
+                <td><a href="index.html#ejercicio2">Ejercicio 2</a></td>
+                <td><a href="index2.html#ejercicio3">Ejercicio 3</a></td>
+            </tr>
+        </table>
+
+    </header>
+    <main>
+        <div id="ejercicio2">
+            <form action="" method=""><
+                <fieldset>
+                    <legend>Datos de individuo</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="Nombre" id="Nombre"required><br><br>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="Apellidos" id="Apellidos"required><br><br>
+                    <label for="dni">DNI (formato 1234567A) </label>
+                    <input type="text" name="dni" id="dni" pattern="[0-9]{8}[A-Za-z]{1}"
+                        title="Debe poner 8 números y una letra" minlength="9" max0length="9" /required>
+                    <p for="Estcivil">Estado civil</p>
+                    <label for="Soltero">Soltero</label>
+                    <input type="radio" name="Estcivil" id="Soltero" value="Soltero"><br> 
+                    <label for="Casado">Casado</label>
+                    <input type="radio" name="Estcivil" id="Casado" value="Casado"><br>
+                    <label for="Pareja">Parejas de hecho</label>
+                    <input type="radio" name="Estcivil" id="Pareja" value="Pareja"><br>
+                    <label for="Divorciado">Divorciado</label>
+                    <input type="radio" name="Estcivil" id="Soltero" value="Soltero"><br>   
+                </fieldset>
+                <fieldset>
+                    <legend>Preferencias</legend>
+                </fieldset>
+            </form>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
