@@ -1,0 +1,40 @@
+header {
+    background-image: url(fondoheader.jpg);
+    text-align: center;
+    
+}
+table{
+    width: 50%;
+    margin: auto;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    color: aliceblue;
+
+}
+
+a:link{
+    color:bisque
+}
+main{
+    background-color: rgb(60, 75, 75);
+
+}
+div h1{
+    text-align: center;
+}
+
+ul{
+    width: 45%;
+    margin: auto;
+    list-style-position: inside;
+}
+
+
+details p {
+    border: 14px;
+}
+
+

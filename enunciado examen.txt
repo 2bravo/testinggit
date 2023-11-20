@@ -1,0 +1,65 @@
+El examen a continuación se divide en 3 ejercicios: Un bloque header, un formulario y un bloque que contiene una lista un "detalles" y un elemento externo. Cada bloque debe ser identificado para poder ser enlazado.
+
+Debes intentar dar las css necesarias para dejar el mismo aspecto que en las capturas.
+
+Los css DEBEN ir en un archivo únicamente. Para las dos páginas.
+
+-Si estás atascado pregunta.
+
+-Se puede usar internet  y apuntes.
+
+-No se puede utilizar chatgpt ni aplicaciones de comunicación. Si lo haces será motivo de expulsión de examen y sin posibilidad de realizar más parciales.
+
+-Las respuestas deben ser los más parecido a lo que se propone. Respuestas que se parezcan no serán puntuadas (por ejemplo hacer una lista desordenada cuando va una ordenada, utilizar casilla diferentes para hacer algo parecido o bien meter elementos dentro de otros como tablas etc…
+
+- No saber enviar o errores en el envío de documentos implica un suspenso.
+
+- Se entrega la carpeta con todos los elementos en los que estáis trabajando. Lo que quiere decir que elementos que no estén incluidos en la carpeta no son evaluados…
+
+-La carpeta se comprimirá para ser mandada y minimizar la posibilidad de equívocos al enviar.
+
+Instrucciones (preguntad aquello que no os quede claro)
+
+El primer ejercicio consta de varios apartados: (3 ptos)
+
+Debes crear un header con un título y una tabla (también con su título) que contenga 3 elementos que van a ser los enlaces a cada uno de los ejercicios. Esto quiere decir que al pulsarlos deben llevar al aparatado de la página correspondiente. (1 pto) (la tabla va dentro de un div lo que te puede ayudar a centrarla.)
+
+Este header tiene un fondo a modo de banner que corresponde a la imagen fondoheader.jpg que te proporciono. (0.25)
+
+Como podrás ver en la captura los links tienen otro color, con lo que deberás darle el formato correspondiente. (0.75)
+
+Por último, para este apartado, la pestaña tiene una imagen que debes colocar y que tambien te proporciono: "Loguito.png" y un título que debes respetar. (1 pto)
+
+Para el segundo Ejercicio (4 ptos) se pide un formulario dentro de un main con dos fieldset. Uno contiene los datos del Individuo y el otro las preferencias.
+
+OJO! todos los campos tiene label!!
+
+Para el primer fieldset se piden 2 cuadros de texto correspondientes al nombre y apellidos. Son Inputs necesarios, es decir no se puede enviar sin haberlos rellenado (0.25)
+
+un tercero que corresponde con el dni el cual debe de ajustarse a un patrón, que es 8 caracteres y una letra. Comprueba!! hay webs para ello. Este campo también es necesario y debe ser rellenado antes de enviar. (0.5)
+
+4 botones de radio a elegir entre las opciones que veis en la captura y un campo de tipo numérico con un rango de 0 a 20. (0.25)
+
+El segundo fieldset:
+
+En primer lugar, tenemos 4 checkbox con los elementos que ves en la captura. (0.125)
+
+En segundo lugar, tenemos una caja de selección de 4 elementos, pizzerias, pero OJO pues pueden selecionarse más de uno. (0,75)
+
+Por último, una caja de texto múltiple cuyo título "comentarios" debe quedar encima. (0.125)
+
+Finalmente, un botón para enviar el formulario que contiene una imagen que te proporciono (send.jpg) y que debe quedar parecido al de la captura. (0.25)
+
+Cuando se pulse el botón de enviar, se tiene que abrir la página index2.html que forma parte del tercer ejercicio. (0.75)
+
+No debes olvidar dar el mismo aspecto que la captura, vigila el fondo, además la página tiene una imagen de fondo  (aiazulejo.jpg) con un tamaño de 60x60 pixeles y se "posiciona" en medio de la página. Hay una regla css para esto perteneciente a los fondos. Cuando la pantalla es más ancha que 1300px la imagen de fondo se repite en horizontal, si es menor entonces se repite en vertical (siguen siendo opciones css de imagen de fondo... (1)
+
+El tercer y último ejercicio (3 ptos) consiste en la creación de una nueva página. Se repite la parte del primer ejercicio, con lo que no pierdas tiempo y copia y pega.
+
+Lo que cambia ahora es que dentro del main existen unas listas que deben quedar como la captura. (1)
+
+A continuación un “detalles” con su título y que debe estar inicialmente cerrado debe tener las mismas características de la captura. Te paso el texto para que solo debas copiar y pegar. (1)
+
+“Los lenguajes de programación se pueden dividir en dos categorías: lenguajes compilados y lenguajes interpretados. La principal diferencia entre ellos es que los lenguajes compilados se traducen a código máquina antes de la ejecución, mientras que los lenguajes interpretados se traducen o interpretan una a una, cada vez que se ejecuta el programa. En un lenguaje compilado, el código fuente se traduce a código máquina mediante un compilador antes de la ejecución del programa. El archivo resultante se puede ejecutar directamente en la máquina sin necesidad de volver a compilarlo. Los lenguajes compilados suelen ser más rápidos y eficientes que los lenguajes interpretados, pero también son menos flexibles. En un lenguaje interpretado, el código fuente se traduce o interpreta una línea a la vez, cada vez que se ejecuta el programa. Esto significa que el código fuente no se traduce a código máquina antes de la ejecución. En cambio, el intérprete lee el código fuente y lo ejecuta directamente. Los lenguajes interpretados suelen ser más lentos que los lenguajes compilados, pero son más flexibles y fáciles de depurar.”
+
+Tras el párrafo debes incluir dentro del cuadro detalles, un objeto que contenga la página cuya url es https://blog.makeitreal.camp/lenguajes-compilados-e-interpretados/  y que ocupe las dimensiones que ves en la captura. (1)
